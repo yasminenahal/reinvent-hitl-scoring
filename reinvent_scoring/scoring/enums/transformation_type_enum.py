@@ -11,3 +11,4 @@ class TransformationTypeEnum:
     STEP = "step"
     CUSTOM_INTERPOLATION = "custom_interpolation"
     NO_TRANSFORMATION = "no_transformation"
+    FLIP_PROBABILITY = "flip_probability"

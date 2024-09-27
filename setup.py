@@ -1,17 +1,12 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name="reinvent_scoring",
-    version="0.0.73",
-    author="MolecularAI",
-    author_email="patronov@gmail.com",
-    description="Scoring functions for Reinvent",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/MolecularAI/reinvent-scoring.git",
+    version="0.0.74",
+    author="Yasmine Nahal",
+    author_email="yasminenahal@aalto.fi",
+    description="Scoring functions for Reinvent adapted to the HITL_AL_GOMG workflow",
+    url="https://github.com/yasminenahal/reinvent-hitl-scoring.git",
     package_data={"reinvent_scoring": ["scoring/score_components/synthetic_accessibility/fpscores.pkl.gz"]},
     packages=setuptools.find_packages(exclude='unittest_reinvent'),
     classifiers=[

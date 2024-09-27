@@ -140,3 +140,7 @@ class TransformationFactory:
         transformed = transformation(predictions)
 
         return transformed
+
+    def flip_probability(self, predictions: list, parameters: dict) -> np.array:
+        transformed = [1-pred for pred in predictions]
+        return np.array(transformed, dtype=np.float32)
