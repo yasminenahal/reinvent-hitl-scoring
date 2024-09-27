@@ -1,8 +1,8 @@
 import setuptools
 
 setuptools.setup(
-    name="reinvent_scoring",
-    version="0.0.74",
+    name="reinvent_hitl_scoring",
+    version="0.0.5",
     author="Yasmine Nahal",
     author_email="yasminenahal@aalto.fi",
     description="Scoring functions for Reinvent adapted to the HITL_AL_GOMG workflow",
