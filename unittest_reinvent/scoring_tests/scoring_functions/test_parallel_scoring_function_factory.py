@@ -1,9 +1,9 @@
 import unittest
 
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionNameEnum
-from reinvent_scoring.scoring.scoring_function_factory import ScoringFunctionFactory
-from reinvent_scoring.scoring.scoring_function_parameters import ScoringFunctionParameters
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionNameEnum
+from reinvent_hitl_scoring.scoring.scoring_function_factory import ScoringFunctionFactory
+from reinvent_hitl_scoring.scoring.scoring_function_parameters import ScoringFunctionParameters
 from unittest_reinvent.fixtures.test_data import BUTANE, CELECOXIB, HEXANE
 
 

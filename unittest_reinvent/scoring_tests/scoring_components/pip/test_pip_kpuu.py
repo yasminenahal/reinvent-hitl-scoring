@@ -7,9 +7,9 @@ import numpy as np
 import numpy.testing as npt
 import pytest
 
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.score_components.pip.pip_log_prediction_component import PiPLogPredictionComponent
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.score_components.pip.pip_log_prediction_component import PiPLogPredictionComponent
 from unittest_reinvent.fixtures.paths import MAIN_TEST_PATH
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_c_lab_component
 from unittest_reinvent.scoring_tests.scoring_components.fixtures import score

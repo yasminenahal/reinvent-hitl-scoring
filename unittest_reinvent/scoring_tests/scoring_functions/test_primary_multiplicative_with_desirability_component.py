@@ -1,14 +1,14 @@
 import unittest
 
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring import CustomProduct
-from reinvent_scoring.scoring.score_summary import FinalSummary
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring import CustomProduct
+from reinvent_hitl_scoring.scoring.score_summary import FinalSummary
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_activity_component_regression, \
     create_offtarget_activity_component_regression, create_custom_alerts_configuration
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.enums import TransformationParametersEnum
-from reinvent_scoring.scoring.enums import TransformationTypeEnum
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import TransformationParametersEnum
+from reinvent_hitl_scoring.scoring.enums import TransformationTypeEnum
 from unittest_reinvent.fixtures.test_data import CELECOXIB, METHOXYHYDRAZINE, BENZENE
 
 

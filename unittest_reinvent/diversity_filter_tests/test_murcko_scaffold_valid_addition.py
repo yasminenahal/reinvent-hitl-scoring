@@ -1,4 +1,4 @@
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
 from unittest_reinvent.diversity_filter_tests.fixtures import tanimoto_scaffold_filter_arrangement
 from unittest_reinvent.diversity_filter_tests.test_murcko_scaffold_base import BaseMurckoScaffoldFilter

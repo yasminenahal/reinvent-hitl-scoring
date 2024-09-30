@@ -1,4 +1,4 @@
-from reinvent_scoring import CustomProduct, ComponentParameters
+from reinvent_hitl_scoring import CustomProduct, ComponentParameters
 from unittest_reinvent.fixtures.test_data import BENZENE, PROPANE, CELECOXIB, ASPIRIN, GENTAMICIN
 from unittest_reinvent.scoring_tests.fixtures import create_predictive_property_component_regression
 from unittest_reinvent.scoring_tests.scoring_functions.base_test_selectivity_multiplicative import \

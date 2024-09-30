@@ -1,13 +1,13 @@
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
 from unittest_reinvent.fixtures.paths import ACTIVITY_REGRESSION, ACTIVITY_CLASSIFICATION, MAIN_TEST_PATH, \
     ICOLOS_EXECUTOR_PATH, ICOLOS_DEBUG
 from unittest_reinvent.fixtures.paths import AZDOCK_DOCKER_SCRIPT_PATH, AZDOCK_ENV_PATH, AZDOCK_DEBUG
 from unittest_reinvent.fixtures.paths import DOCKSTREAM_DOCKER_SCRIPT_PATH, DOCKSTREAM_ENV_PATH, DOCKSTREAM_DEBUG
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.enums import DescriptorTypesEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.enums import TransformationTypeEnum
-from reinvent_scoring.scoring.enums import TransformationParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import DescriptorTypesEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import TransformationTypeEnum
+from reinvent_hitl_scoring.scoring.enums import TransformationParametersEnum
 
 
 def create_activity_component_regression():

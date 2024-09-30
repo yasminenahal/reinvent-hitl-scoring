@@ -1,4 +1,4 @@
-name: reinvent_scoring
+name: reinvent_hitl_scoring
 channels:
   - rdkit
   - pytorch

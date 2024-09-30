@@ -1,5 +1,5 @@
-from reinvent_scoring import TransformationFactory
-from reinvent_scoring.scoring.enums import TransformationParametersEnum
+from reinvent_hitl_scoring import TransformationFactory
+from reinvent_hitl_scoring.scoring.enums import TransformationParametersEnum
 from unittest_reinvent.scoring_tests.scoring_transformations.base_test_score_transformations import BaseTestScoreTransformation
 
 

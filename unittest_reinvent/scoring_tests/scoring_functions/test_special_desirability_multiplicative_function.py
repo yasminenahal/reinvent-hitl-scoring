@@ -1,5 +1,5 @@
-from reinvent_scoring import ComponentParameters, CustomProduct
-from reinvent_scoring.scoring.enums import TransformationParametersEnum
+from reinvent_hitl_scoring import ComponentParameters, CustomProduct
+from reinvent_hitl_scoring.scoring.enums import TransformationParametersEnum
 from unittest_reinvent.fixtures.paths import ACTIVITY_REGRESSION
 from unittest_reinvent.fixtures.test_data import GENTAMICIN, ASPIRIN, ANILINE, CELECOXIB
 from unittest_reinvent.scoring_tests.fixtures import create_offtarget_activity_component_regression

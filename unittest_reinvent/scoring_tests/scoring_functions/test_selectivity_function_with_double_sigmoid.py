@@ -1,4 +1,4 @@
-from reinvent_scoring import CustomProduct, FinalSummary
+from reinvent_hitl_scoring import CustomProduct, FinalSummary
 from unittest_reinvent.fixtures.test_data import AMOXAPINE, ASPIRIN, CELECOXIB
 from unittest_reinvent.scoring_tests.scoring_functions.base_test_selectivity_double_sigmoid import \
     BaseTestSelectivityFunctionDoubleSigmoid

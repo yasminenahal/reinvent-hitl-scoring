@@ -1,10 +1,10 @@
 import unittest
 
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionNameEnum
-from reinvent_scoring.scoring.scoring_function_factory import ScoringFunctionFactory
-from reinvent_scoring.scoring.scoring_function_parameters import ScoringFunctionParameters
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionNameEnum
+from reinvent_hitl_scoring.scoring.scoring_function_factory import ScoringFunctionFactory
+from reinvent_hitl_scoring.scoring.scoring_function_parameters import ScoringFunctionParameters
 from unittest_reinvent.fixtures.test_data import BENZENE, CELECOXIB, ETHANE
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import \
     create_predictive_property_component_regression

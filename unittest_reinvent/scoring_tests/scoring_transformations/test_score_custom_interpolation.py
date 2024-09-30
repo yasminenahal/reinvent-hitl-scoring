@@ -1,6 +1,6 @@
 import unittest
 
-from reinvent_scoring import (
+from reinvent_hitl_scoring import (
     TransformationTypeEnum, ComponentSpecificParametersEnum,
     TransformationFactory, TransformationParametersEnum
 )

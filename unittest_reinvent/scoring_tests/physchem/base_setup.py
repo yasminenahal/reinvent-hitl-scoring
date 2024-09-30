@@ -1,8 +1,8 @@
 import unittest
 
-from reinvent_scoring import ComponentSpecificParametersEnum, ScoringFunctionComponentNameEnum, TransformationTypeEnum
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring import CustomSum
+from reinvent_hitl_scoring import ComponentSpecificParametersEnum, ScoringFunctionComponentNameEnum, TransformationTypeEnum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring import CustomSum
 
 
 class BaseSetup(unittest.TestCase):

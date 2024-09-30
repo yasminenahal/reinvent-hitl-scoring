@@ -1,12 +1,12 @@
 import unittest
 from typing import List, Optional
 
-from reinvent_scoring.scoring.enums.component_specific_parameters_enum import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums.component_specific_parameters_enum import ComponentSpecificParametersEnum
 
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_custom_alerts_configuration, \
     create_activity_component_regression
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 
 
 class BaseTestSelectivityMultiplicative(unittest.TestCase):

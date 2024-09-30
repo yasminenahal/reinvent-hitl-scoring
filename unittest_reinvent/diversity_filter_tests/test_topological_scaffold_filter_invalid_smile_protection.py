@@ -1,4 +1,4 @@
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
 from unittest_reinvent.diversity_filter_tests.test_topological_scaffold_filter_base import BaseTopologicalScaffoldFilter
 from unittest_reinvent.fixtures.test_data import INVALID

@@ -1,4 +1,4 @@
-from reinvent_scoring.scoring import CustomProduct
+from reinvent_hitl_scoring.scoring import CustomProduct
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_custom_alerts_configuration
 
 from unittest_reinvent.fixtures.test_data import CELECOXIB, HEXANE, BUTANE, ANILINE, BENZENE

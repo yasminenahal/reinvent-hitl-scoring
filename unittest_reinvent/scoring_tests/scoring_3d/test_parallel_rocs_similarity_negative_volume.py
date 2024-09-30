@@ -2,12 +2,12 @@ import unittest
 import pytest
 import numpy.testing as npt
 
-from reinvent_scoring.scoring import CustomSum
-from reinvent_scoring.scoring.enums import ROCSInputFileTypesEnum
+from reinvent_hitl_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.enums import ROCSInputFileTypesEnum
 from unittest_reinvent.fixtures.paths import ROCS_CUSTOM_CFF, ROCS_NEG_VOL_SQ, ROCS_NEG_VOL_LIG, \
     ROCS_NEG_VOL_PROTEIN
-from reinvent_scoring.scoring.enums import ROCSSpecificParametersEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ROCSSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import AMOXAPINE, METHOXYHYDRAZINE, PARACETAMOL
 from unittest_reinvent.scoring_tests.scoring_3d.fixtures import component_parameters
 

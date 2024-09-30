@@ -1,6 +1,6 @@
 import os
 import json
-from reinvent_scoring.configs.config import reinvent_scoring_config as config
+from reinvent_hitl_scoring.configs.config import reinvent_scoring_config as config
 
 
 project_root = os.path.dirname(__file__)

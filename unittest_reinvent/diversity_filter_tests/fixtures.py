@@ -1,9 +1,9 @@
 import numpy as np
 from typing import List
 
-from reinvent_scoring.scoring.score_summary import FinalSummary, ComponentSummary
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.score_summary import FinalSummary, ComponentSummary
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
 
 
 def tanimoto_scaffold_filter_arrangement(smiles: List[str], scores: List[float],

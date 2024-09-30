@@ -8,12 +8,12 @@ import pytest
 
 from reinvent_chemistry.conversions import Conversions
 
-from reinvent_scoring.scoring.score_components.console_invoked import Icolos
+from reinvent_hitl_scoring.scoring.score_components.console_invoked import Icolos
 from unittest_reinvent.fixtures.paths import MAIN_TEST_PATH, ICOLOS_UNITTEST_GRID_PATH, \
     ICOLOS_UNITTEST_NIBR_NEGATIVE_IMAGE, ICOLOS_UNITTEST_JSON, ICOLOS_UNITTEST_NIBR_VALUES_KEY
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_Icolos_component_parameters
 from unittest_reinvent.fixtures.test_data import PARACETAMOL, ASPIRIN, CAFFEINE
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
 from unittest_reinvent.unit_testing import ignore_warnings
 
 

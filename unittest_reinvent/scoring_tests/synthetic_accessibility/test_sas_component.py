@@ -3,8 +3,8 @@ import unittest, pytest
 import numpy.testing as npt
 from reinvent_chemistry.conversions import Conversions
 
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.score_components.synthetic_accessibility.sas_component import SASComponent
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.score_components.synthetic_accessibility.sas_component import SASComponent
 from unittest_reinvent.fixtures.paths import SAS_MODEL_PATH
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_activity_component_regression
 from unittest_reinvent.fixtures.test_data import CELECOXIB, ASPIRIN, ANILINE

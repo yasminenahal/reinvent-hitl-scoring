@@ -1,12 +1,12 @@
 import numpy as np
 
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.memory_record_dto import MemoryRecordDTO
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.memory_record_dto import MemoryRecordDTO
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
 from unittest_reinvent.diversity_filter_tests.test_diversity_filter_memory_base import BaseDiversityFilterMemory
-from reinvent_scoring.scoring.score_summary import ComponentSummary
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.score_summary import ComponentSummary
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
 
 
 class TestDiversityFilterMemoryUpdate(BaseDiversityFilterMemory):

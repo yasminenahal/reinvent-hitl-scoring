@@ -3,12 +3,12 @@ import pytest
 
 import numpy.testing as npt
 
-from reinvent_scoring import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.paths import ROCS_SHAPE_QUERY_3
-from reinvent_scoring.scoring import CustomSum
-from reinvent_scoring.scoring.enums import ROCSInputFileTypesEnum
-from reinvent_scoring.scoring.enums import ROCSSimilarityMeasuresEnum
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.enums import ROCSInputFileTypesEnum
+from reinvent_hitl_scoring.scoring.enums import ROCSSimilarityMeasuresEnum
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
 from unittest_reinvent.fixtures.test_data import COCAINE, CAFFEINE, CYCLODECANE, PARACETAMOL
 from unittest_reinvent.scoring_tests.scoring_3d.fixtures import component_parameters
 

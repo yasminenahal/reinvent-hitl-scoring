@@ -1,8 +1,8 @@
 import unittest
 
-from reinvent_scoring.scoring.score_transformations import TransformationFactory
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.enums import TransformationTypeEnum, TransformationParametersEnum
+from reinvent_hitl_scoring.scoring.score_transformations import TransformationFactory
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import TransformationTypeEnum, TransformationParametersEnum
 from unittest_reinvent.scoring_tests.scoring_transformations.fixtures import round_list
 
 

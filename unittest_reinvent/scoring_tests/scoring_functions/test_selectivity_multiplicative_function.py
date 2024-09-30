@@ -1,4 +1,4 @@
-from reinvent_scoring.scoring import CustomProduct
+from reinvent_hitl_scoring.scoring import CustomProduct
 from unittest_reinvent.fixtures.test_data import CELECOXIB, BENZENE, ANILINE
 from unittest_reinvent.scoring_tests.scoring_functions.base_test_selectivity_multiplicative import \
     BaseTestSelectivityMultiplicative

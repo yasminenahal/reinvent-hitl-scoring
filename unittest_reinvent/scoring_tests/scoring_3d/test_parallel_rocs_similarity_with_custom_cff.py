@@ -1,10 +1,10 @@
 import unittest
 import pytest
-from reinvent_scoring.scoring import CustomSum
-from reinvent_scoring.scoring.enums import ROCSInputFileTypesEnum
+from reinvent_hitl_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.enums import ROCSInputFileTypesEnum
 from unittest_reinvent.fixtures.paths import ROCS_SHAPE_QUERY_CFF, ROCS_CUSTOM_CFF
-from reinvent_scoring.scoring.enums import ROCSSimilarityMeasuresEnum, ROCSSpecificParametersEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ROCSSimilarityMeasuresEnum, ROCSSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import AMOXAPINE, COCAINE, INVALID
 from unittest_reinvent.scoring_tests.scoring_3d.fixtures import component_parameters
 

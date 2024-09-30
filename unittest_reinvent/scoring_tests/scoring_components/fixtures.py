@@ -3,8 +3,8 @@ from typing import List
 import numpy as np
 from rdkit import Chem
 
-from reinvent_scoring import ComponentParameters, TanimotoSimilarity, ScoringFunctionComponentNameEnum, JaccardDistance
-from reinvent_scoring.scoring.score_components import BaseScoreComponent
+from reinvent_hitl_scoring import ComponentParameters, TanimotoSimilarity, ScoringFunctionComponentNameEnum, JaccardDistance
+from reinvent_hitl_scoring.scoring.score_components import BaseScoreComponent
 from unittest_reinvent.fixtures.test_data import BUTANE, CELECOXIB
 
 

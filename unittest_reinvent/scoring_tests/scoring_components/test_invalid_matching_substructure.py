@@ -1,4 +1,4 @@
-from reinvent_scoring.scoring.score_components import MatchingSubstructure
+from reinvent_hitl_scoring.scoring.score_components import MatchingSubstructure
 from unittest_reinvent.fixtures.test_data import INVALID
 from unittest_reinvent.scoring_tests.scoring_components.base_matching_substructure import \
     BaseTestMatchingSubstructure

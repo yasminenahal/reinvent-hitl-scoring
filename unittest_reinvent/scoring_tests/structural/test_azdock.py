@@ -7,11 +7,11 @@ import numpy.testing as npt
 import pytest
 
 from reinvent_chemistry.conversions import Conversions
-from reinvent_scoring.scoring.score_components.structural.azdock import AZdock
+from reinvent_hitl_scoring.scoring.score_components.structural.azdock import AZdock
 from unittest_reinvent.fixtures.paths import MAIN_TEST_PATH, AZDOCK_UNITTEST_JSON, AZDOCK_UNITTEST_OE_RECEPTOR_PATH
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_AZdock_component_parameters
 from unittest_reinvent.fixtures.test_data import PARACETAMOL, ASPIRIN, CAFFEINE
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
 from unittest_reinvent.unit_testing import ignore_warnings
 
 

@@ -1,13 +1,13 @@
 import unittest
 
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
-from reinvent_scoring.scoring.enums.diversity_filter_enum import DiversityFilterEnum
+from reinvent_hitl_scoring.scoring.enums.diversity_filter_enum import DiversityFilterEnum
 from unittest_reinvent.fixtures.test_data import PROPANE, PENTANE, ASPIRIN
 from unittest_reinvent.diversity_filter_tests.fixtures import tanimoto_scaffold_filter_arrangement
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
 
 
 class BaseMurckoScaffoldFilter(unittest.TestCase):

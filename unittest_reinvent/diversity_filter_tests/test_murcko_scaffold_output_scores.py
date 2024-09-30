@@ -1,6 +1,6 @@
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
 from unittest_reinvent.diversity_filter_tests.test_murcko_scaffold_base import BaseMurckoScaffoldFilter
 

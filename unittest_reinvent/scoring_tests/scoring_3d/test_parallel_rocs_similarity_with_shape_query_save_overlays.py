@@ -7,11 +7,11 @@ import numpy.testing as npt
 from rdkit.Chem import SDMolSupplier
 
 from unittest_reinvent.fixtures.paths import MAIN_TEST_PATH
-from reinvent_scoring.scoring import CustomSum
-from reinvent_scoring.scoring.enums import ROCSInputFileTypesEnum
+from reinvent_hitl_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.enums import ROCSInputFileTypesEnum
 from unittest_reinvent.fixtures.paths import ROCS_SHAPE_QUERY
-from reinvent_scoring.scoring.enums import ROCSSimilarityMeasuresEnum, ROCSSpecificParametersEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ROCSSimilarityMeasuresEnum, ROCSSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import CELECOXIB
 from unittest_reinvent.scoring_tests.scoring_3d.fixtures import component_parameters
 

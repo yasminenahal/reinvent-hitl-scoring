@@ -3,9 +3,9 @@ import unittest
 """" As long as we use additive methods with both tanimoto distance and similarity we'll get a result of .5 
 (given equal weights.  However, as T_d = 1-T_s, we could just use one of them and maintain the same information
 with less information and just scale the weight accordingly."""
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring import CustomSum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import BUTANE, CELECOXIB
 
 

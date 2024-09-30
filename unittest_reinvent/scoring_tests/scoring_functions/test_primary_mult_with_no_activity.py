@@ -1,8 +1,8 @@
 import unittest
 
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring import CustomProduct
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring import CustomProduct
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import CELECOXIB, BENZENE, PENTANE
 
 

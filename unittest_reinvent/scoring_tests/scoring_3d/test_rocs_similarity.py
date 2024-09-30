@@ -2,10 +2,10 @@ import unittest
 import pytest
 
 from unittest_reinvent.fixtures.paths import ROCS_SIMILARITY_TEST_DATA
-from reinvent_scoring.scoring import CustomSum
-from reinvent_scoring.scoring.enums import ROCSInputFileTypesEnum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.enums import ROCSInputFileTypesEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
 from unittest_reinvent.fixtures.test_data import CELECOXIB, METAMIZOLE, INVALID
 from unittest_reinvent.scoring_tests.scoring_3d.fixtures import component_parameters
 

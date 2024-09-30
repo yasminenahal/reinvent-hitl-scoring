@@ -3,10 +3,10 @@ import unittest
 from unittest.mock import MagicMock, patch
 import numpy.testing as npt
 
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.score_components.pip import StringPiPPredictionComponent
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.score_components.pip import StringPiPPredictionComponent
 from unittest_reinvent.scoring_tests.scoring_components.fixtures import score
 from unittest_reinvent.fixtures.test_data import CELECOXIB, BUTANE, ASPIRIN
 from unittest_reinvent.scoring_tests.scoring_components.pip.utils import patch_pip_response

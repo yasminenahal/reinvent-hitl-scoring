@@ -7,7 +7,7 @@ import argparse
 TESTS_FOLDER = 'unittest_reinvent'
 
 
-parser = argparse.ArgumentParser(description='Run reinvent_scoring tests')
+parser = argparse.ArgumentParser(description='Run reinvent_hitl_scoring tests')
 parser.add_argument(
     '--unittests', action='store_true',
     help='Only run unittests (Please indicate either integration or unittests flag)'

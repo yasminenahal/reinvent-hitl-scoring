@@ -1,6 +1,6 @@
 import unittest
 
-from reinvent_scoring import ScoringFunctionComponentNameEnum, ComponentParameters
+from reinvent_hitl_scoring import ScoringFunctionComponentNameEnum, ComponentParameters
 
 
 class BaseTestMatchingSubstructure(unittest.TestCase):

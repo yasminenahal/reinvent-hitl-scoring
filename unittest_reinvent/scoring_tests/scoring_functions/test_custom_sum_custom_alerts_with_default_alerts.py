@@ -1,6 +1,6 @@
 import unittest
 
-from reinvent_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring import CustomSum
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_custom_alerts_configuration
 from unittest_reinvent.fixtures.test_data import CELECOXIB, CYCLODECANE, CYCLOUNDERCANE
 

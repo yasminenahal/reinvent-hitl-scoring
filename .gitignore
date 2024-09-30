@@ -4,11 +4,11 @@ package.json
 .vscode
 tags
 .idea
-/reinvent_scoring/configs/config.json
+/reinvent_hitl_scoring/configs/config.json
 
 dist
 build
-reinvent_scoring_molecular_ai.egg-info
+reinvent_hitl_scoring.egg-info
 
 # Coverage.py output
 .coverage
@@ -16,7 +16,7 @@ htmlcov/
 
 # Python memory_profiler output
 mprofile_*.dat
-/reinvent_scoring.egg-info/dependency_links.txt
-/reinvent_scoring.egg-info/PKG-INFO
-/reinvent_scoring.egg-info/SOURCES.txt
-/reinvent_scoring.egg-info/top_level.txt
+/reinvent_hitl_scoring.egg-info/dependency_links.txt
+/reinvent_hitl_scoring.egg-info/PKG-INFO
+/reinvent_hitl_scoring.egg-info/SOURCES.txt
+/reinvent_hitl_scoring.egg-info/top_level.txt

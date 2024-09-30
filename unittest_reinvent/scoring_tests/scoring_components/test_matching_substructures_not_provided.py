@@ -1,6 +1,6 @@
 import numpy.testing as npt
 
-from reinvent_scoring import MatchingSubstructure
+from reinvent_hitl_scoring import MatchingSubstructure
 from unittest_reinvent.fixtures.test_data import METAMIZOLE
 from unittest_reinvent.scoring_tests.scoring_components.base_matching_substructure import \
     BaseTestMatchingSubstructure

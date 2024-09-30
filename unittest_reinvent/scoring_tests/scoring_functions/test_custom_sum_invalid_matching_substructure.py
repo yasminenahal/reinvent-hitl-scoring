@@ -1,7 +1,7 @@
 import unittest
 
-from reinvent_scoring import ComponentParameters, CustomSum
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring import ComponentParameters, CustomSum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import INVALID, PROPANE
 
 

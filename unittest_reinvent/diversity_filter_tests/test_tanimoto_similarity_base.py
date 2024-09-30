@@ -3,17 +3,17 @@ import shutil
 import unittest
 import numpy as np
 
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
 from unittest_reinvent.fixtures.paths import MAIN_TEST_PATH
 from unittest_reinvent.fixtures.test_data import ASPIRIN, PROPANE, ETHANE, PENTANE
-from reinvent_scoring.scoring.enums.diversity_filter_enum import DiversityFilterEnum
+from reinvent_hitl_scoring.scoring.enums.diversity_filter_enum import DiversityFilterEnum
 
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.score_summary import FinalSummary, ComponentSummary
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.score_summary import FinalSummary, ComponentSummary
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
 
 
 class BaseTanimotoSimilarity(unittest.TestCase):

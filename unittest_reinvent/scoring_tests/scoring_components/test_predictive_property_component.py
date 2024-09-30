@@ -3,8 +3,8 @@ import unittest
 
 import numpy.testing as npt
 
-from reinvent_scoring.scoring.enums import ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.score_components import PredictivePropertyComponent
+from reinvent_hitl_scoring.scoring.enums import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.score_components import PredictivePropertyComponent
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import \
     create_predictive_property_component_regression
 from unittest_reinvent.scoring_tests.scoring_components.fixtures import score_single

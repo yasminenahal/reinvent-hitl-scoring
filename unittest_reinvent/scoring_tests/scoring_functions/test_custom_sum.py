@@ -1,12 +1,12 @@
 import unittest
 
-from reinvent_scoring.scoring.enums.component_specific_parameters_enum import ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.enums.component_specific_parameters_enum import ComponentSpecificParametersEnum
 
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring import CustomSum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring import CustomSum
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import \
     create_predictive_property_component_regression, create_activity_component_regression
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import PROPANE, BENZENE, ASPIRIN, METAMIZOLE, CELECOXIB, ETHANE
 
 

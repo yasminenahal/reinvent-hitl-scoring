@@ -1,6 +1,6 @@
 import unittest
 
-from reinvent_scoring.scoring.score_components import CustomAlerts
+from reinvent_hitl_scoring.scoring.score_components import CustomAlerts
 from unittest_reinvent.scoring_tests.fixtures.predictive_model_fixtures import create_custom_alerts_configuration
 from unittest_reinvent.scoring_tests.scoring_components.fixtures import score_single, score
 from unittest_reinvent.fixtures.test_data import HEXANE, PENTANE, METAMIZOLE, CAFFEINE

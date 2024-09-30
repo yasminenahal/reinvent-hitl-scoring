@@ -1,7 +1,7 @@
 import numpy as np
 import numpy.testing as npt
 
-from reinvent_scoring.scoring.enums import TransformationParametersEnum
+from reinvent_hitl_scoring.scoring.enums import TransformationParametersEnum
 
 from unittest_reinvent.fixtures.test_data import CELECOXIB, METAMIZOLE, AMOXAPINE, METHOXYHYDRAZINE, COCAINE
 from unittest_reinvent.scoring_tests.physchem.base_setup import BaseSetup

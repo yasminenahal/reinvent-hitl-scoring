@@ -1,6 +1,6 @@
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.update_diversity_filter_dto import \
     UpdateDiversityFilterDTO
 from unittest_reinvent.diversity_filter_tests.test_topological_scaffold_filter_base import BaseTopologicalScaffoldFilter
 from unittest_reinvent.fixtures.test_data import CELECOXIB, METAMIZOLE, BUTANE, HEXANE, ASPIRIN, PROPANE, PENTANE

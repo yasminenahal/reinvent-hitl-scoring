@@ -2,10 +2,10 @@ import unittest
 
 from rdkit import Chem
 
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.score_components import QedScore
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.score_components import QedScore
 from unittest_reinvent.scoring_tests.scoring_components.fixtures import score_single
-from reinvent_scoring.scoring.enums import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums import ScoringFunctionComponentNameEnum
 from unittest_reinvent.fixtures.test_data import HEXANE
 import numpy.testing as npt
 

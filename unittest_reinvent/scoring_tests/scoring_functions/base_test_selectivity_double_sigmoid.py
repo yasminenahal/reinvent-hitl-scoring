@@ -1,7 +1,7 @@
 import unittest
 from typing import List
 
-from reinvent_scoring import ComponentSpecificParametersEnum, TransformationTypeEnum, ScoringFunctionComponentNameEnum, \
+from reinvent_hitl_scoring import ComponentSpecificParametersEnum, TransformationTypeEnum, ScoringFunctionComponentNameEnum, \
     ComponentParameters, TransformationParametersEnum
 from unittest_reinvent.scoring_tests.fixtures import create_activity_component_regression, \
     create_offtarget_activity_component_regression
