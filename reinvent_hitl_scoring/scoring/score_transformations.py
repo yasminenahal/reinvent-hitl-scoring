@@ -20,7 +20,8 @@ class TransformationFactory:
             enum.RIGHT_STEP: self.right_step,
             enum.LEFT_STEP: self.left_step,
             enum.STEP: self.step,
-            enum.CUSTOM_INTERPOLATION: self.custom_interpolation
+            enum.CUSTOM_INTERPOLATION: self.custom_interpolation,
+            enum.FLIP_PROBABILITY: self.flip_probability
         }
         return transformation_list
 
